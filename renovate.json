@@ -1,0 +1,5 @@
+{
+    "description": "Shared Renovate configuration for Netlify Rust repositories",
+    "dependencyDashboard": true,
+    "prCreation": "not-pending"
+}
