@@ -3,5 +3,6 @@
     "dependencyDashboard": true,
     "prCreation": "not-pending",
     "timezone": "Europe/Paris",
-    "schedule": "after 4am and before 9am every weekday"
+    "schedule": "after 4am and before 9am every weekday",
+    "lockfileMaintenance": true
 }
