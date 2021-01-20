@@ -1,8 +1,8 @@
 {
-    "description": "Shared Renovate configuration for Netlify Rust repositories",
-    "dependencyDashboard": true,
-    "prCreation": "not-pending",
-    "timezone": "Europe/Paris",
-    "schedule": "after 4am and before 9am every weekday",
-    "lockfileMaintenance": true
+  "description": "Shared Renovate configuration for Netlify Rust repositories",
+  "dependencyDashboard": true,
+  "prCreation": "not-pending",
+  "timezone": "Europe/Paris",
+  "schedule": "after 4am and before 9am every weekday",
+  "lockfileMaintenance": true
 }
