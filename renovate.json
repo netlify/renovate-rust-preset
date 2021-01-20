@@ -4,5 +4,36 @@
   "prCreation": "not-pending",
   "timezone": "Europe/Paris",
   "schedule": "after 4am and before 9am every weekday",
-  "lockfileMaintenance": true
+  "lockfileMaintenance": true,
+  "packageRules": [
+    {
+      "packageNames": ["capnp", "capnpc"],
+      "groupName": "capnp packages"
+    },
+    {
+      "packagePatterns": ["^futures[-_]?"],
+      "groupName": "futures packages"
+    },
+    {
+      "packagePatterns": ["^opentelemetry[-_]?", "^tracing-opentelemetry$"],
+      "groupName": "opentelemetry packages"
+    },
+    {
+      "packagePatterns": ["^prost[-_]?"],
+      "groupName": "prost packages"
+    },
+    {
+      "packagePatterns": ["^rusoto[-_]?"],
+      "groupName": "rusoto packages"
+    },
+    {
+      "packagePatterns": ["^serde[-_]?"],
+      "groupName": "serde packages"
+    },
+    {
+      "packagePatterns": ["^tracing[-_]?"],
+      "excludePackageNames": ["tracing-opentelemetry"],
+      "groupName": "tracing packages"
+    }
+  ]
 }
