@@ -31,6 +31,10 @@
       "groupName": "serde packages"
     },
     {
+      "packagePatterns": ["^tokio[-_]"],
+      "groupName": "tokio packages"
+    },
+    {
       "packagePatterns": ["^tracing[-_]?"],
       "excludePackageNames": ["tracing-opentelemetry"],
       "groupName": "tracing packages"
