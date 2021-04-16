@@ -38,6 +38,10 @@
       "packagePatterns": ["^tracing[-_]?"],
       "excludePackageNames": ["tracing-opentelemetry"],
       "groupName": "tracing packages"
+    },
+    {
+      "packagePatterns": ["^tonic[-_]?"],
+      "groupName": "tonic packages"
     }
   ]
 }
