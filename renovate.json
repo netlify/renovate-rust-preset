@@ -43,5 +43,16 @@
       "packagePatterns": ["^tonic[-_]?"],
       "groupName": "tonic packages"
     }
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["^rust-toolchain(\\.ya?ml)?$"],
+      "matchStrings": [
+        "channel\\s*=\\s*\"(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
+      ],
+      "depNameTemplate": "rust",
+      "lookupNameTemplate": "rust-lang/rust",
+      "datasourceTemplate": "github-releases"
+    }
   ]
 }
